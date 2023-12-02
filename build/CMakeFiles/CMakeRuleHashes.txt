@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+56a00f987788d526d0232b2ffa1281f1 include/glfw/src/CMakeFiles/update_mappings
