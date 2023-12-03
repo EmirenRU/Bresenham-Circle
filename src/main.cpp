@@ -100,7 +100,7 @@ static void draw(Vector2D *p, Vector2D *c)
 {
   glBegin(GL_POINTS);
     glColor3f(0,0,0);
-	  glVertex2i(p->x+c->x, p->y+c->y);
+	glVertex2i(p->x+c->x, p->y+c->y);
   	glVertex2i(p->x+c->x, p->y-c->y);
   	glVertex2i(p->x-c->x, p->y+c->y);
   	glVertex2i(p->x+c->y, p->y+c->x);
