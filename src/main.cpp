@@ -4,16 +4,8 @@ typedef struct{
     double x,y;
 }Vector2D;
 
-typedef std::pair<double, double> v2d;
-
 static void draw(Vector2D *p, Vector2D *c);
 static void circle(Vector2D * start, double r);
-
-const double pi6 = pi / 6;
-const double pi3 = pi / 3;
-const double pi2 = pi / 2;
-const double pi4 = pi / 4;
-
 
 int main()
 {
